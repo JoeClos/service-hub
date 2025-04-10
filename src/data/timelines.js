@@ -133,94 +133,115 @@
 // export default timelines;
 
 
-const timelines = {
-  art: {
-    title: "Explore Art & Museums",
-    description: "Discover galleries, public art, and free museum days around Helsinki.",
-    steps: [
-      {
-        title: "City Art Museums",
-        description: "Visit HAM Helsinki Art Museum and other top local exhibitions.",
-        link: "https://www.hamhelsinki.fi/en/"
-      },
-      {
-        title: "Free Museum Days",
-        description: "Many museums offer free entry once a month — find out when.",
-        link: "https://www.hel.fi/fi"
-      },
-      {
-        title: "Outdoor Art Trails",
-        description: "Explore public sculptures and street art around the city.",
-        link: "https://www.hel.fi/fi"
-      }
-    ]
-  },
+  const timelines = {
+    art: {
+      title: "Explore Art & Museums",
+      description: "Discover galleries, public art, and free museum days around Helsinki.",
+      steps: [
+        {
+          title: "City Art Museums",
+          description: "Visit HAM Helsinki Art Museum and other top local exhibitions.",
+          link: "https://www.hamhelsinki.fi/en/"
+        },
+        {
+          title: "Free Museum Days",
+          description: "Many museums offer free entry once a month — find out when.",
+          link: "https://www.hel.fi/fi"
+        },
+        {
+          title: "Outdoor Art Trails",
+          description: "Explore public sculptures and street art around the city.",
+          link: "https://www.hel.fi/fi"
+        }
+      ]
+    },
 
-  music: {
-    title: "Live Music in Helsinki",
-    description: "Catch live performances, concerts, and open mics from jazz to techno.",
-    steps: [
-      {
-        title: "Free Summer Concerts",
-        description: "Enjoy free outdoor concerts in parks during summer months.",
-        link: "https://www.hel.fi/fi"
-      },
-      {
-        title: "Open Mic Nights",
-        description: "Perform or just enjoy music at welcoming local venues.",
-        link: "https://www.hel.fi/fi"
-      },
-      {
-        title: "Classical & Chamber Music",
-        description: "Discover orchestras, intimate concerts and church performances.",
-        link: "https://www.hel.fi/fi"
-      }
-    ]
-  },
+    music: {
+      title: "Live Music in Helsinki",
+      description: "Catch live performances, concerts, and open mics from jazz to techno.",
+      steps: [
+        {
+          title: "Free Summer Concerts",
+          description: "Enjoy free outdoor concerts in parks during summer months.",
+          link: "https://www.hel.fi/fi"
+        },
+        {
+          title: "Open Mic Nights",
+          description: "Perform or just enjoy music at welcoming local venues.",
+          link: "https://www.hel.fi/fi"
+        },
+        {
+          title: "Classical & Chamber Music",
+          description: "Discover orchestras, intimate concerts and church performances.",
+          link: "https://www.hel.fi/fi"
+        }
+      ]
+    },
 
-  nature: {
-    title: "Parks & Nature Escapes",
-    description: "Recharge outdoors in Helsinki’s lush parks, islands and trails.",
-    steps: [
-      {
-        title: "Urban Parks",
-        description: "Discover Töölönlahti, Kaivopuisto, and other iconic city green spaces.",
-        link: "https://www.myhelsinki.fi/en/see-and-do/parks"
-      },
-      {
-        title: "City Nature Trails",
-        description: "Find hiking routes, birdwatching areas, and sea views close to home.",
-        link: "https://www.hel.fi/fi"
-      },
-      {
-        title: "Visit an Island",
-        description: "Take a ferry to Suomenlinna or Lonna for a nature break.",
-        link: "https://www.myhelsinki.fi/en/see-and-do/suomenlinna"
-      }
-    ]
-  },
+    nature: {
+      title: "Parks & Nature Escapes",
+      description: "Recharge outdoors in Helsinki’s lush parks, islands and trails.",
+      steps: [
+        {
+          title: "Urban Parks",
+          description: "Discover Töölönlahti, Kaivopuisto, and other iconic city green spaces.",
+          link: "https://www.myhelsinki.fi/en/see-and-do/parks"
+        },
+        {
+          title: "City Nature Trails",
+          description: "Find hiking routes, birdwatching areas, and sea views close to home.",
+          link: "https://www.hel.fi/fi"
+        },
+        {
+          title: "Visit an Island",
+          description: "Take a ferry to Suomenlinna or Lonna for a nature break.",
+          link: "https://www.myhelsinki.fi/en/see-and-do/suomenlinna"
+        }
+      ]
+    },
 
-  libraries: {
-    title: "Libraries & Learning",
-    description: "More than books — Helsinki’s libraries offer workshops, studios, and community space.",
-    steps: [
-      {
-        title: "Oodi Central Library",
-        description: "Experience one of Europe’s most modern and inclusive libraries.",
-        link: "https://helmet.finna.fi/"
-      },
-      {
-        title: "Creative Studios",
-        description: "Use free tools for music production, podcasting, photography, and 3D printing.",
-        link: "https://helmet.finna.fi/"
-      },
-      {
-        title: "Workshops & Meetups",
-        description: "Attend language cafés, coding clubs, or reading circles.",
-        link: "https://helmet.finna.fi/"
-      }
-    ]
-  }
-};
+    libraries: {
+      title: "Libraries & Learning",
+      description: "More than books — Helsinki’s libraries offer workshops, studios, and community space.",
+      steps: [
+        {
+          title: "Oodi Central Library",
+          description: "Experience one of Europe’s most modern and inclusive libraries.",
+          link: "https://helmet.finna.fi/"
+        },
+        {
+          title: "Creative Studios",
+          description: "Use free tools for music production, podcasting, photography, and 3D printing.",
+          link: "https://helmet.finna.fi/"
+        },
+        {
+          title: "Workshops & Meetups",
+          description: "Attend language cafés, coding clubs, or reading circles.",
+          link: "https://helmet.finna.fi/"
+        }
+      ]
+    },
+    theatre: {
+      title: "Theatre & Performing Arts",
+      description: "Experience drama, dance, and performances in multiple languages and styles.",
+      steps: [
+        {
+          title: "Finnish National Theatre",
+          description: "See classic and contemporary plays in Finland’s oldest theatre.",
+          link: "https://www.kansallisteatteri.fi/en/"
+        },
+        {
+          title: "Accessible Performances",
+          description: "Explore performances with subtitles or in English for non-Finnish speakers.",
+          link: "https://www.hel.fi/fi"
+        },
+        {
+          title: "Local & Fringe Theatres",
+          description: "Discover independent theatre groups and alternative venues.",
+          link: "https://www.hel.fi/fi"
+        }
+      ]
+    },
+  };
 
 export default timelines;
